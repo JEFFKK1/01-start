@@ -5,10 +5,13 @@ import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+ // const [count, setCount] = useState(0)
 
   return (
-    <h3> hello from app.jsx</h3>
+    <>
+      <h3> hello from app.jsx</h3>
+      <p>This is a simple paragraph.  </p>
+  </>
   )
 }
 export default App
